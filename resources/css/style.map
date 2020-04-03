@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		".my-container {\r\n    margin-top: 15px;\r\n    background-color: lightgray;\r\n    box-shadow: 0px 0px 10px 0px lightgray;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,SAAS;EAC3B,UAAU,EAAE,0BAA0B;CACzC"
+}
