@@ -1,56 +1,8 @@
-/* line 1, ../cs50/project0/resources/scss/style.scss */
-body {
-  color: white;
-}
-
-/* line 4, ../cs50/project0/resources/scss/style.scss */
-h1 {
-  padding-top: 15px;
-}
-
-/* line 7, ../cs50/project0/resources/scss/style.scss */
-h2 {
-  padding-top: 10px;
-}
-
-/* line 10, ../cs50/project0/resources/scss/style.scss */
-hr {
-  border: 2px solid white;
-  border-radius: 3px;
-  box-shadow: inset 0px 0px 10px 0px white;
-}
-
-/* line 15, ../cs50/project0/resources/scss/style.scss */
+/* line 1, ../project0/resources/scss/style.scss */
 .my-container {
   margin-top: 15px;
-  background-color: black;
-  box-shadow: 0px 0px 10px 0px black;
-}
-
-/* line 20, ../cs50/project0/resources/scss/style.scss */
-.nav-pills .nav-link.active, .nav-pills > .active > a:focus {
-  background-color: black;
-  box-shadow: 0px 0px 10px 0px black;
-}
-
-/* line 24, ../cs50/project0/resources/scss/style.scss */
-a {
-  color: black;
-}
-
-/* line 27, ../cs50/project0/resources/scss/style.scss */
-a:hover {
-  color: white;
-  background-color: gray;
-  box-shadow: 0px 0px 10px 0px black;
-}
-
-/* line 32, ../cs50/project0/resources/scss/style.scss */
-p {
-  background-color: white;
-  color: black;
-  box-shadow: inset 0px 0px 10px 0px black;
-  padding: 15px;
+  background-color: lightgray;
+  box-shadow: 0px 0px 10px 0px lightgray;
 }
 
 /*# sourceMappingURL=style.css.map */
