@@ -52,4 +52,14 @@ h2 {
   padding: 15px;
 }
 
+/* line 39, ../project0/resources/scss/style.scss */
+.photo {
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+/* line 43, ../project0/resources/scss/style.scss */
+.div {
+  margin: 1%;
+}
+
 /*# sourceMappingURL=style.css.map */
