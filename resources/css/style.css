@@ -20,10 +20,10 @@ h2 {
   padding: 15px 5% 25px 5%;
 }
 
-@media handheld {
+@media portrait {
   .my-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
