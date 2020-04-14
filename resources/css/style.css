@@ -21,7 +21,7 @@ h2 {
 }
 
 @media (orientation: portrait) {
-  .my-container {
+  .container .my-container {
     margin-left: 0;
     margin-right: 0;
   }
