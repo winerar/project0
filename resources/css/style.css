@@ -20,10 +20,10 @@ h2 {
   padding: 15px 5% 25px 5%;
 }
 
-@media (orientation: portrait) {
-  .container .my-container {
-    margin-left: 0;
-    margin-right: 0;
+@media (orientation: landscape) {
+  .my-container {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
