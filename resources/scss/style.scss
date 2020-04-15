@@ -1,5 +1,9 @@
+$container-margin: 10%;
+$main-color: black;
+$back-color: white;
+$select-color: gray;
 body {
-    color: white;
+    color: $back-color;
 }
 h1 {
     padding-top: 15px;
@@ -8,44 +12,46 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: normal;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid $back-color;
     border-radius: 3px;
 }
 .my-container {
-    background-color: black;
-    box-shadow: 0px 0px 10px 0px black;
+    background-color: $main-color;
+    box-shadow: 0px 0px 10px 0px $main-color;
     padding: 15px 5% 25px 5%;
+    margin-left: $container-margin;
+    margin-right: $container-margin;
 }
-@media (orientation: landscape){
+@media all and (orientation: portrait), all and (max-width: 1080px) {
     .my-container {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .nav-pills .nav-link.active, .nav-pills > .active > a:focus {
-    background-color: black;
-    box-shadow: 0px 0px 10px 0px black;
+    background-color: $main-color;
+    box-shadow: 0px 0px 10px 0px $main-color;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 .nav-link {
-    color: black;
+    color: $main-color;
 }
 .nav-link:hover {
-    color: white;
-    background-color: gray;
-    box-shadow: 0px 0px 10px 0px black;
+    color: $main-color;
+    background-color: $select-color;
+    box-shadow: 0px 0px 10px 0px $main-color;
     transition: 250ms linear;
 }
 .normal-p {
-    background-color: white;
-    color: black;
-    box-shadow: inset 0px 0px 10px 0px black;
+    background-color: $back-color;
+    color: $main-color;
+    box-shadow: inset 0px 0px 10px 0px $main-color;
     padding: 15px;
 }
-.photo {
+#avatar {
     //border: 3px solid white;
-    box-shadow: 0px 0px 10px 0px white;
+    box-shadow: 0px 0px 10px 0px $back-color;
 }
 .div {
     margin: 1%;
