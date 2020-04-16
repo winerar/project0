@@ -39,6 +39,12 @@ body {
   }
 }
 
+@media all and (orientation: portrait), all and (min-width: 720px) {
+  body {
+    font-size: 2em;
+  }
+}
+
 .nav-pills .nav-link.active, .nav-pills > .active > a:focus {
   background-color: black;
   border-bottom-right-radius: 0px;

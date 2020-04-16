@@ -36,6 +36,12 @@ body {
         margin-right: 0;
     }
 }
+@media all and (orientation: portrait), all and (min-width: 720px)
+{
+    body {
+        font-size: 2em;
+    }
+}
 .nav-pills .nav-link.active, .nav-pills > .active > a:focus {
     @extend %shadow;
     background-color: $main-color;
