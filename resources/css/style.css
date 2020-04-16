@@ -39,7 +39,7 @@ body {
   }
 }
 
-@media all and (orientation: portrait), all and (min-width: 720px) {
+@media (orientation: portrait) and (min-width: 720px) {
   body {
     font-size: 2em;
   }
