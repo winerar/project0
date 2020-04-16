@@ -67,4 +67,16 @@ h2 {
 .div {
   margin: 1%;
 }
+
+.my-footer {
+  margin-top: 15px;
+}
+
+.my-footer .footer-a {
+  color: white;
+}
+
+.my-footer div {
+  color: gray;
+}
 /*# sourceMappingURL=style.css.map */
