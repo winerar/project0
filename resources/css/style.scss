@@ -24,14 +24,12 @@ h2 {
     padding: 1% 5% 2% 5%;
     margin-left: $container-margin;
     margin-right: $container-margin;
+    font-size: 1em;
 }
 @media all and (orientation: portrait), all and (max-width: 1080px) {
     .my-container {
         margin-left: 0;
         margin-right: 0;
-    }
-    body {
-        font-size: 2em;
     }
 }
 .nav-pills .nav-link.active, .nav-pills > .active > a:focus {
