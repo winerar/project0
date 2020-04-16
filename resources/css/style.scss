@@ -10,6 +10,7 @@ body {
 }
 h1 {
     padding-top: 15px;
+    font-size: 2.6em;
 }
 h2 {
     padding-top: 10px;
@@ -17,6 +18,7 @@ h2 {
     font-weight: normal;
     border-bottom: 3px solid $back-color;
     border-radius: 3px;
+    font-size: 2.2em;
 }
 .my-container {
     @extend %shadow;
@@ -24,13 +26,14 @@ h2 {
     padding: 1% 5% 2% 5%;
     margin-left: $container-margin;
     margin-right: $container-margin;
+}
+body {
     font-size: 1em;
 }
 @media all and (orientation: portrait), all and (max-width: 1080px) {
     .my-container {
         margin-left: 0;
         margin-right: 0;
-        font-size: 2em;
     }
 }
 .nav-pills .nav-link.active, .nav-pills > .active > a:focus {
